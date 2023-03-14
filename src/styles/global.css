@@ -1,0 +1,72 @@
+:root {
+    --bg-color: #74bbf3; 
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    top: 0;
+    background: var(--bg-color)
+}
+
+header > img {
+    padding: 1rem;
+}
+
+nav {
+    position: sticky;
+}   
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+li {
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+}
+
+li > span {
+    font-weight: 900;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    bottom: 0;
+    margin: 0;
+    background: var(--bg-color);
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    max-height: 50px;
+}
+
+footer > img {
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,28 @@
+.list {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.checkoutBtn {
+    margin: 1rem;
+    border: solid black;
+}
+
+.price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    min-width: 70px;
+}
+
+.totalPrice {
+    text-align: end;
+    font-size: 1.5rem;
+}
+
